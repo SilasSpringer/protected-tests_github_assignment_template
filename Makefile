@@ -10,11 +10,11 @@ $(TARGET): $(SRCS)
 
 tests: test
 test: $(TARGET)
-	-./test.1
-	-./test.2
-	-./test.3
-	-./test.4
-	-./test.5
+	-(cd .protected && ./test.1)
+	-(cd .protected && ./test.2)
+	-(cd .protected && ./test.3)
+	-(cd .protected && ./test.4)
+	-(cd .protected && ./test.5)
 
 clean:
-	rm -f $(TARGET) *.o test.?.*
+	rm -f $(TARGET) *.o .protected/test.?.*

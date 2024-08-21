@@ -1,1 +1,1 @@
-# github_github_assignment_repo_template
+# protected-tests_github_assignment_template

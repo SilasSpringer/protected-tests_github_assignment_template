@@ -1,22 +1,13 @@
 #!/bin/sh
-#
-# students must NOT change this file in any way!!!
 TEST=$0
 
 # this is the commandline to use
-CMD="./linecount input.notafile input.unreadable"
+CMD="../linecount"
 
 # this is the correct output
 cat > $TEST.correct << ==EOF==
-program: ./linecount
-  input.notafile: -1
-  input.unreadable: -1
+program: ../linecount
 ==EOF==
-
-# make sure input files are correct
-touch input.unreadable
-chmod 000 input.unreadable
-rm -f input.notafile
 
 # don't change anything else
 $CMD > $TEST.myoutput
