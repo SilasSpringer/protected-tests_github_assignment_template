@@ -23,7 +23,7 @@
     {
       "name": "test1",
       "setup": "",
-      "run": "./test.1",
+      "run": "(cd .protected && ./test.1)",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -33,7 +33,7 @@
     {
       "name": "test2",
       "setup": "",
-      "run": "./test.2",
+      "run": "(cd .protected && ./test.2)",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -43,7 +43,7 @@
     {
       "name": "test3",
       "setup": "",
-      "run": "./test.3",
+      "run": "(cd .protected && ./test.3)",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -53,7 +53,7 @@
     {
       "name": "test4",
       "setup": "",
-      "run": "./test.4",
+      "run": "(cd .protected && ./test.4)",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -63,7 +63,7 @@
     {
       "name": "test5",
       "setup": "",
-      "run": "./test.5",
+      "run": "(cd .protected && ./test.5)",
       "input": "",
       "output": "",
       "comparison": "included",
