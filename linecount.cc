@@ -5,8 +5,8 @@ using namespace std;
 // output format to use IDENTICALLY:
 //BSH:Saru> ./linecount input.3lines input.1line 
 //program: ./linecount
-// input.3lines: 3
-// input.1line: 1
+//  input.3lines: 3
+//  input.1line: 1
 
 int main( int argc, char* argv[] )
 {
